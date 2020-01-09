@@ -1,0 +1,18 @@
+package id.ac.poliban.mi.andri.listnegara;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CountryData {
+        static List<Country> getAllContries() {
+            List<Country> data = new ArrayList<>();
+            {
+                data.add(new Country("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/125px-Flag_of_Indonesia.svg.png", "Indonesia", "Republik Indonesia (RI) atau Negara Kesatuan Republik Indonesia (NKRI), atau lebih umum disebut Indonesia, adalah negara di Asia Tenggara yang dilintasi garis khatulistiwa dan berada di antara daratan benua Asia dan Australia, serta antara Samudra Pasifik dan Samudra Hindia. Indonesia adalah negara kepulauan terbesar di dunia yang terdiri dari 17.504 pulau.[11] Nama alternatif yang biasa dipakai adalah Nusantara.[12] Dengan populasi Hampir 270.054.853 jiwa pada tahun 2018,[13] Indonesia adalah negara berpenduduk terbesar keempat di dunia dan negara yang berpenduduk Muslim terbesar di dunia, dengan lebih dari 230 juta jiwa.[14][15] "));
+                data.add(new Country("https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/125px-Flag_of_Malaysia.svg.png","Malaysia","Malaysia adalah sebuah negara federal[12] yang terdiri dari tiga belas negeri (negara bagian) dan tiga wilayah federal di Asia Tenggara dengan luas 329.847 km persegi.[13][14] Ibu kotanya adalah Kuala Lumpur, sedangkan Putrajaya menjadi pusat pemerintahan federal. Jumlah penduduk negara ini mencapai 30.697.000 jiwa pada tahun 2015. Negara ini dipisahkan ke dalam dua kawasan — Malaysia Barat dan Malaysia Timur — oleh Kepulauan Natuna, wilayah Indonesia di Laut Tiongkok Selatan.[14] Malaysia berbatasan dengan Thailand, Indonesia, Singapura, Brunei, dan Filipina.[14] Negara ini terletak di dekat khatulistiwa dan beriklim tropika.[14] Kepala negara Malaysia adalah seorang Raja atau seorang Sultan yang dipilih secara bergiliran setiap 5 tahun sekali, hanya negeri-negeri (negara bagian) yang diperintah oleh Raja/Sultan saja yang diperbolehkan mengirimkan wakilnya untuk menjadi Raja Malaysia. Raja Malaysia biasanya memakai gelar Sri Paduka Baginda Yang di-Pertuan Agong[15]. dan pemerintahannya dikepalai oleh seorang Perdana Menteri.[16][17] Model pemerintahan Malaysia mirip dengan sistem parlementer Westminster.[18] "));
+                data.add(new Country("https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/125px-Flag_of_the_Philippines.svg.png","Filipina","Filipina atau Republik Filipina (bahasa Tagalog: Republika ng Pilipinas) adalah sebuah negara republik di Asia Tenggara, sebelah utara Indonesia, dan Malaysia. Filipina merupakan sebuah negara kepulauan yang terletak di Lingkar Pasifik Barat, negara ini terdiri dari 7.641 pulau. Selama ribuan tahun, warga kepulauan Filipina, dan pekerja keras ini telah mengembangkan sistem cocok tanam Padi yang sangat maju, yang menyediakan makanan pokok bagi masyarakatnya. "));
+                data.add(new Country("https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/125px-Flag_of_Vietnam.svg.png","Vietnam","Vietnam (Bahasa Vietnam: Việt Nam Chữ Nôm: 越南[viət˨ næm˧] ( simak)), bernama resmi Republik Sosialis Vietnam (Cộng Hòa Xã Hội Chủ Nghĩa Việt Nam 共和社會主義越南) adalah negara paling timur di Semenanjung Indochina di Asia Tenggara. Vietnam berbatasan dengan Republik Rakyat Tiongkok di sebelah utara, Laos di sebelah barat laut, Kamboja di sebelah barat daya dan di sebelah timur terbentang Laut China Selatan.[9] "));
+            }
+
+            return data;
+        }
+}
